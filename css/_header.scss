@@ -103,7 +103,8 @@
         display: flex;
         transition: all 0.3s;
         overflow: auto;
-        z-index: 30;
+        z-index: 50;
+
 
         &.active {
             left: 0;
@@ -128,6 +129,6 @@
     // .menu__link
 
     &__link {
-        font-family: $font-family;
+     
     }
 }
